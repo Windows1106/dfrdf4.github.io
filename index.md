@@ -5,4 +5,8 @@
 安装  
 sudo zypper refresh  
 sudo zypper dist-upgrade --from packman --allow-vendor-change  
-sudo zypper install --from packman ffmpeg gstreamer-plugins-{good,bad,ugly,libav} libavcodec-full   
+sudo zypper install --from packman ffmpeg gstreamer-plugins-{good,bad,ugly,libav} libavcodec-full  
+  
+### 电话
+> 电话:18116372643
+> E-Mail:dfrdf4@hotmail.com
