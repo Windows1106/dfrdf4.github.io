@@ -1,6 +1,11 @@
 ##dfrdf4.github.io
 
 
-### Support or Contact
+### OPENSUSE leap 15.3 解码器安装方法
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+添加软件源
+> zypper ar -cfp 90 https://mirrors.ustc.edu.cn/packman/suse/openSUSE_Leap_15.3 packman
+安装
+sudo zypper refresh 
+sudo zypper dist-upgrade --from packman --allow-vendor-change 
+sudo zypper install --from packman ffmpeg gstreamer-plugins-{good,bad,ugly,libav} libavcodec-full 
